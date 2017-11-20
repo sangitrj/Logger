@@ -1,0 +1,46 @@
+WARN    2017-11-20 14:57:55,029 [main] com.mkyong.HelloExample  - This is warn : 
+INFO    2017-11-20 14:57:55,032 [main] com.mkyong.HelloExample  - hai
+ERROR   2017-11-20 14:57:55,032 [main] com.mkyong.HelloExample  - This is error : 
+FATAL   2017-11-20 14:57:55,032 [main] com.mkyong.HelloExample  - This is fatal : 
+WARN    2017-11-20 15:00:59,657 [main] com.mkyong.HelloExample  - This is warn : 
+INFO    2017-11-20 15:00:59,659 [main] com.mkyong.HelloExample  - hai
+ERROR   2017-11-20 15:00:59,659 [main] com.mkyong.HelloExample  - This is error : 
+FATAL   2017-11-20 15:00:59,659 [main] com.mkyong.HelloExample  - This is fatal : 
+WARN    2017-11-20 15:01:20,775 [main] com.mkyong.HelloExample  - This is warn : 
+INFO    2017-11-20 15:01:20,776 [main] com.mkyong.HelloExample  - hai
+ERROR   2017-11-20 15:01:20,776 [main] com.mkyong.HelloExample  - This is error : 
+FATAL   2017-11-20 15:01:20,776 [main] com.mkyong.HelloExample  - This is fatal : 
+ERROR   2017-11-20 15:01:20,777 [main] com.mkyong.HelloExample  - java.io.FileNotFoundException: 
+WARN    2017-11-20 15:52:36,751 [main] com.mkyong.HelloExample  - This is warn : 
+INFO    2017-11-20 15:52:36,752 [main] com.mkyong.HelloExample  - hai
+ERROR   2017-11-20 15:52:36,752 [main] com.mkyong.HelloExample  - This is error : 
+FATAL   2017-11-20 15:52:36,752 [main] com.mkyong.HelloExample  - This is fatal : 
+ERROR   2017-11-20 15:52:36,753 [main] com.mkyong.HelloExample  - sdsd
+java.io.FileNotFoundException: 
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at com.mkyong.HelloExample.main(HelloExample.java:24)
+WARN    2017-11-20 15:53:25,041 [main] com.mkyong.HelloExample  - This is warn : 
+INFO    2017-11-20 15:53:25,043 [main] com.mkyong.HelloExample  - hai
+ERROR   2017-11-20 15:53:25,043 [main] com.mkyong.HelloExample  - This is error : 
+FATAL   2017-11-20 15:53:25,043 [main] com.mkyong.HelloExample  - This is fatal : 
+ERROR   2017-11-20 15:53:25,044 [main] com.mkyong.HelloExample  - sdsd
+java.io.FileNotFoundException: 
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at com.mkyong.HelloExample.main(HelloExample.java:24)
+WARN    2017-11-20 15:54:26,587 [main] logger.HelloExample  - This is warn : 
+INFO    2017-11-20 15:54:26,589 [main] logger.HelloExample  - hai
+ERROR   2017-11-20 15:54:26,589 [main] logger.HelloExample  - This is error : 
+FATAL   2017-11-20 15:54:26,589 [main] logger.HelloExample  - This is fatal : 
+ERROR   2017-11-20 15:54:26,590 [main] logger.HelloExample  - sdsd
+java.io.FileNotFoundException: 
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at logger.HelloExample.main(HelloExample.java:24)
